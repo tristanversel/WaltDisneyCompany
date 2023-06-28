@@ -20,8 +20,8 @@ document.getElementById("header").addEventListener("mouseover", ()=>{
 
 document.getElementById("header").addEventListener("mouseleave", ()=>{
     if(window.scrollY <= (window.innerHeight/4)){
-        document.getElementById('logo').style.filter = 'invert(0)';
-        document.getElementById('menu').style.filter = 'invert(0)';
+        document.getElementById('logo').style.filter = 'invert(0) drop-shadow(0px 0px 5px rgb(0,0,0,0.4))';
+        document.getElementById('menu').style.filter = 'invert(0) drop-shadow(0px 0px 5px rgb(0,0,0,0.4))';
         for (var i = 0; i < liensNav.length; i++) {
             liensNav[i].style.color = 'white';
         }
@@ -42,8 +42,8 @@ function affiche(){
 
 function retire(){
    
-    document.getElementById('logo').style.filter = 'invert(0)';
-    document.getElementById('menu').style.filter = 'invert(0)';
+    document.getElementById('logo').style.filter = 'invert(0) drop-shadow(0px 0px 5px rgb(0,0,0,0.4))';
+    document.getElementById('menu').style.filter = 'invert(0) drop-shadow(0px 0px 5px rgb(0,0,0,0.4))';
     for (var i = 0; i < liensNav.length; i++) {
         liensNav[i].style.color = 'white';
     }
